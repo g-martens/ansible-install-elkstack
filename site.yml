@@ -1,0 +1,8 @@
+---
+- name: Uninstall OBM
+  hosts: all
+  serial: 4
+  roles:
+    - uninstall
+  tags: 
+    - uninstall
